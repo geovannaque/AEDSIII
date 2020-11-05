@@ -107,15 +107,17 @@ int main(){
 	arv.Inserir_semretorno(2);
 	arv.Inserir_semretorno(1);
 
-	if(arv.Pesquisar(arv.raiz,1)){
+	/*FUNÇÃO DE PESQUISAR O ELEMENTO 
+		if(arv.Pesquisar(arv.raiz,1)){
 	   cout<<"Elemento encontrado."<<endl;
 	
 	}
-
    else{
     	cout<<"Elemento NÃO encontrado."<<endl;
 	}
+	*/
 	
+	/*FUNÇÕES DE IMPRIMIR 
 	cout<<"**** ARVORE EM ORDEM ****" <<endl;
 	arv.Imprimir_Ordem(arv.raiz);
 	
@@ -124,6 +126,10 @@ int main(){
 	
 	cout<<" \n **** ARVORE POS ORDEM ****"<<endl;
 	arv.Imprimir_PosOrdem(arv.raiz);
-
+	*/
+	
+	/* FUNÇÃO QUE VERIFICA SE É NÓ FOLHA 
+	arv.VerificaNoFolha(arv.raiz);
+	*/
 	return 0;
 }
